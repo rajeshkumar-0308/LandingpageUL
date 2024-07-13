@@ -101,7 +101,7 @@ button {
 .content p {
   margin: 0;
   padding: 0;
-  animation: fade-in ease-in-out 4s;
+  animation: fade-in ease-in-out 2.5s;
 }
 
 @keyframes  fade-in{
@@ -133,7 +133,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 10px;
-  animation: fade-in ease-in-out 4.5s forwards;
+  animation: fade-in ease-in-out 3s forwards;
 }
 
 .lineprogress i {
@@ -239,7 +239,7 @@ img:hover{
 }
 
 .center-img{
-  animation: fade-in  ease-in-out 2s;
+  animation: fade-in  ease-in-out 1.5s;
 }
 
 @keyframes slide-left {
