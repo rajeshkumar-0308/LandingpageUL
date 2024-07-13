@@ -11,6 +11,7 @@ body {
   font-style: normal;
 }
 
+/* navbar */
 .menu {
   width: 100%;
   height: 80px;
@@ -45,8 +46,8 @@ body {
 }
 
 .headlogo {
-  width: 8rem;
-  height: 4rem;
+  width: 10rem;
+  height: 12rem;
 }
 
 button {
@@ -56,17 +57,20 @@ button {
   height: 30px;
   font-size: 12px;
   font-weight: 550;
-  border-color: white;
+  border: none;
+  box-shadow: 0 2px 13px -1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
-.line {
+.nav-line {
   height: 0.2px;
   width: 65rem;
   background: #9a979749;
   margin: auto;
 }
 
-.body {
+/* content */
+.content {
   padding-top: 3rem;
 }
 
@@ -74,19 +78,19 @@ button {
   text-align: center;
 }
 
-.body h1,
-.body p {
+.content h1,
+.content p {
   margin: 0;
   padding: 0;
 }
 
-.body h1 {
+.content h1 {
   font-size: 5.5rem;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-.body p {
+.content p {
   margin-top: 10px;
   color: #000000ad;
 }
@@ -95,27 +99,7 @@ button {
   display: block;
 }
 
-img {
-  border-radius: 2.5rem;
-  align-items: center;
-}
-
-.image {
-  display: flex;
-  justify-content: center;
-}
-
-.first {
-  padding-bottom: 4.5rem;
-  padding-right: 0.5rem;
-}
-
-.last {
-  padding-bottom: 2rem;
-  padding-left: 0.5rem;
-}
-
-
+/* center design */
 .lineprogress ul {
   display: flex;
   justify-content: center;
@@ -134,7 +118,7 @@ img {
   margin-right: 50px;
 }
 
-.line2 {
+.connection-line{
   height: 0.9px;
   width: 2rem;
   background-color: rgba(101, 95, 95, 0.245);
@@ -183,15 +167,37 @@ img {
   left: 8px;
 }
 
-.line2:nth-of-type(1) {
+.connection-line:nth-of-type(1) {
   right: 9px;
 }
 
-.line2:nth-of-type(3) {
+.connection-line:nth-of-type(3) {
   right: 52px;
 }
 
-.line2:nth-of-type(4) {
+.connection-line:nth-of-type(4) {
   right: 40px;
 }
 
+/* images */
+img {
+  cursor: pointer;
+  border-radius: 2.8rem;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.first-img {
+  padding-right: 0.5rem;
+  max-height: 14rem;
+}
+
+.last-img {
+  padding-left: 0.5rem;
+  max-height: 14rem;
+}
